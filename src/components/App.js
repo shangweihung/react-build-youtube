@@ -34,12 +34,11 @@ class App extends React.Component {
   };
 
   render(){
-    console.log('render');  //ui two column stackable grid
     return (
       <div className="ui container">
         <SearchBar keywordSubmit={this.keywordSubmit}/>
         <div className="ui stackable two column grid">
-          <div className="ten wide column">
+          <div className="twelve wide column">
             <VideoDetail video={this.state.selectedVideo} remove={this.remove}/>
           </div>
           <div className="six wide column">
