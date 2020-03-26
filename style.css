@@ -1,0 +1,7 @@
+.ui container {
+    background-color: #e4e4e4;
+}
+
+.ui.segment, .ui.segments .segment {
+    background-color: #fbf0f0;
+}
