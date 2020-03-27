@@ -1,8 +1,8 @@
 import React from 'react';
 import youtube from '../api/youtubeApi.js';
 import SearchBar from './SearchBar.js';
-import VideoList from './VideoList.js';
-import VideoDetail from './VideoDetail.js';
+import VideoSidebar from './VideoSidebar.js';
+import VideoMain from './VideoMain.js';
 
 class App extends React.Component {
   state = { videos:[], selectedVideo: null };
@@ -35,24 +35,24 @@ class App extends React.Component {
 
   render(){
     return (
-      <div>
-        <div className="ui header">My Youtube</div>
         <div className="ui container">
-          <SearchBar keywordSubmit={this.keywordSubmit}/>
-          <div className="ui grid">
-            <div className="ui row">
-              <div className="ten wide column">
-                <VideoDetail video={this.state.selectedVideo} remove={this.remove}/>
-              </div>
-              <div className="six wide column">
-                <VideoList
-                  videos={this.state.videos}
-                  videoSelect={this.videoSelect}/>
+          <h1 className="ui center aligned header" style={{ marginTop: '1rem' }}><i class="fas fa-headphones"></i> My Youtube</h1>
+            <SearchBar keywordSubmit={this.keywordSubmit}/>
+            <div className="ui grid">
+              <div className="ui row">
+                <div className="ten wide column">
+                  <VideoMain 
+                    video={this.state.selectedVideo} 
+                    remove={this.remove}/>
+                </div>
+                <div className="six wide column">
+                  <VideoSidebar
+                    videos={this.state.videos}
+                    videoSelect={this.videoSelect}/>
+                </div>
               </div>
             </div>
-          </div>
         </div>
-      </div>
     );
   };
 }

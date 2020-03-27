@@ -1,6 +1,6 @@
 import React from 'react';
 
-const VideoDetail = ( { video } ) => {
+const VideoMain = ( { video } ) => {
 
   if (!video) {
     return (
@@ -29,4 +29,4 @@ const VideoDetail = ( { video } ) => {
   );
 }
 
-export default VideoDetail;
+export default VideoMain;

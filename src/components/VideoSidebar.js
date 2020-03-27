@@ -1,7 +1,7 @@
 import React from 'react';
 import VideoItem from './VideoItem.js';
 
-const VideoList = ( { videos, videoSelect } ) => {
+const VideoSidebar = ( { videos, videoSelect } ) => {
 
   const renderList = videos.map(video => {
     return <VideoItem video={video}
@@ -19,4 +19,4 @@ const VideoList = ( { videos, videoSelect } ) => {
 }
 
 
-export default VideoList;
+export default VideoSidebar;
