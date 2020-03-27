@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/react-build-youtube/static/js/main.1e2e58dd.chunk.js",
-    "main.js.map": "/react-build-youtube/static/js/main.1e2e58dd.chunk.js.map",
+    "main.js": "/react-build-youtube/static/js/main.556e4573.chunk.js",
+    "main.js.map": "/react-build-youtube/static/js/main.556e4573.chunk.js.map",
     "runtime-main.js": "/react-build-youtube/static/js/runtime-main.3926f2a8.js",
     "runtime-main.js.map": "/react-build-youtube/static/js/runtime-main.3926f2a8.js.map",
     "static/js/2.e5baee14.chunk.js": "/react-build-youtube/static/js/2.e5baee14.chunk.js",
     "static/js/2.e5baee14.chunk.js.map": "/react-build-youtube/static/js/2.e5baee14.chunk.js.map",
     "index.html": "/react-build-youtube/index.html",
-    "precache-manifest.2050ee047a5cae6fb97384c75023d681.js": "/react-build-youtube/precache-manifest.2050ee047a5cae6fb97384c75023d681.js",
+    "precache-manifest.93e4210d171150f93b73e3832ecaa462.js": "/react-build-youtube/precache-manifest.93e4210d171150f93b73e3832ecaa462.js",
     "service-worker.js": "/react-build-youtube/service-worker.js",
     "static/js/2.e5baee14.chunk.js.LICENSE.txt": "/react-build-youtube/static/js/2.e5baee14.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3926f2a8.js",
     "static/js/2.e5baee14.chunk.js",
-    "static/js/main.1e2e58dd.chunk.js"
+    "static/js/main.556e4573.chunk.js"
   ]
 }
