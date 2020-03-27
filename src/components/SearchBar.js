@@ -31,7 +31,7 @@ class SearchBar extends React.Component {
                 placeholder="Search..."
                 value={this.state.term}
                 onChange={this.inputChange}></input>
-              <div className="ui button" onClick={this.buttonClick}>Search</div>
+              <div className="ui secondary button" onClick={this.buttonClick}>Search</div>
             </div>
           </div>
         </form>
